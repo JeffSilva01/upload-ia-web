@@ -6,7 +6,11 @@ export const metadata: Metadata = {
   description: 'Projeto da NLW feito pela Rocketseat',
 }
 
-export default function RootLayout({children}: {children: React.ReactNode}) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
   return (
     <html lang="pt-br">
       <body>{children}</body>
